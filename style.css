@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&family=Poppins:wght@200;500;600;800&display=swap');
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin: 50px 100px;
+}
+
+.logo {
+    filter: invert(80%) sepia(90%) saturate(7000%) hue-rotate(344deg) brightness(95%) contrast(97%);
+    flex-grow: 1;
+}
+
+.navbar {
+    flex-grow: 2;
+}
+.lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.front {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.front div img {
+    height: 600px;
+}
+.content {
+    width: 500px;
+    position: relative;
+    right: 150px;
+}
+
+button {
+    background-color: #D82E2F;
+    color: #f4f5f4;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.content > h5 {
+    font-size: 25px;
+    color: #D82E2F;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content > h1 {
+    font-size: 60px;
+    font-size: 200;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content > p {
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.back {
+    position: absolute;
+    z-index: -1;
+    height: 700px;
+    width: 800px;
+    background-color: #161717;
+}
+
+.boxes {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    position: relative;
+    top: 40px;
+}
+
+.box > img {
+    width: 100px;
+}
+
+.box {
+    background-color: #202121;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.box:hover {
+    background-color: #D82E2F;
+}
+
+.box > h4 {
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.box > p {
+    font-weight: 100;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.box > h6 {
+    color: #D82E2F;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.numbers {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin: 20px 270px;
+    position: relative;
+    top: 40px;
+}
+
+.left {
+    height: 220px;
+    width: 550px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1 {
+    color: #D82E2F;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.left p {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40px;
+}
+
+.right > div {
+    width: 300px;
+    height: 100px;
+    background-color: #202121;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right div h3 {
+    color: #D82E2F;
+    font-size: 30px;
+}
+
+.heading {
+    margin: 50px 270px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading div p {
+    font-weight: 100;
+}
+
+.cards {
+
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards div div {
+    background-color: #202121;
+    height: 400px;
+    width: 450px;
+    margin: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards div img {
+    width: 400px;
+    margin: 0 20px;
+    
+}
+
+.cards div h4 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-left: 35px;
+}
+.cards div h6 {
+    color: #D82E2F;
+    font-size: 15px;
+    margin: 0 35px;
+}
+
+.contact {
+    padding: 50px 70px;
+    margin: 100px 250px;
+    background-color: #202121;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.contact div h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact div p {
+    font-weight: 100;
+    margin: 20px;
+    margin-left: 0;
+}
+
+section > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+section ul li {
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #202121;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px 250px;
+}
+
+.platforms > img {
+    background-color: #fff;
+    height: 50px;
+    border-radius: 60px;
+}
