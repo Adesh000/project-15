@@ -272,3 +272,43 @@ footer {
     height: 50px;
     border-radius: 60px;
 }
+
+@media screen and (max-width: 640px){
+    nav{
+        flex-direction: column;
+    }
+
+    .list-item {
+        margin: 30px;
+    }
+
+    .front {
+        flex-direction: column;
+    }
+    .content{
+        left: 30px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+    .numbers {
+        margin-left: 50px;
+    }
+    .heading {
+        flex-direction: column;
+        margin: 100px 50px;
+    }
+
+    .contact {
+        margin: 100px 50px;
+        flex-direction: column;
+    }
+
+    .platforms {
+        display: flex;
+        position: relative;
+        top: 50px;
+        right: 160px;
+    }
+}
